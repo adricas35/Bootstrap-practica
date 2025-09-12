@@ -199,6 +199,129 @@ header .bag-button .counter-products {
 
 
 
+/* Estilos de la section products en el main  */
+#products h2 {
+    font-size: var(--fs-title2);
+    font-weight: 700;
+    color: var(--dark-color);
+    margin-bottom: 40px;
+}
+
+#products ul {
+    width: 420px;
+    margin: 0 auto;
+    background: #eeeeee;
+    padding: 6px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+
+#products li button {
+    color: var(--dark-color);
+    padding: 10px 30px;
+    border: none;
+}
+
+#products li button:hover {
+    border: none;
+}
+
+#products li button.active {
+    background: var(--white-color);
+    border-radius: 30px;
+    border: none;
+}
+
+#products .card-product {
+    margin: 0 15px !important;
+}
+
+#products .card-product .cont-img {
+    background: #e6e6e6;
+    position: relative;
+    width: 100%;
+    min-height: 220px;
+    border-radius: 20px 20px 0 0;
+}
+
+#products .card-product .cont-img img {
+    width: 220px;
+    position: absolute;
+    top: -70px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+#products .slick-list {
+    padding: 160px 0;
+}
+
+#products .cont-info {
+    background: white;
+    text-align: left;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+#products .cont-info p.category {
+    font-size: var(--fs-text);
+    color: #8d8d8d;
+}
+
+#products .cont-info h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--dark-color);
+}
+
+#products .stars i {
+    color: #f6b767;
+}
+
+#products .stars {
+    margin-bottom: 30px;
+}
+
+#products .card-product h4 {
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    margin: 0;
+}
+
+#products .card-product h4 span {
+    font-size: 15px;
+    margin-right: 4px;
+}
+
+#products .card-product button {
+    background: #0d1b39;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    color: var(--white-color);
+    font-size: 24px;
+}
+
+#products .slick-arrow {
+    background: var(--white-color);
+    width: 44px;
+    height: 44px;
+    z-index: 999;
+    border-radius: 50%;
+    color: #0d1b39;
+    border: 1px solid #dbdada;
+}
+
+#products .slick-arrow::before {
+    color: #0d1b39;
+}
+
+
 /* 6. TABLET estilos responsil table*/
 @media screen and (min-width:768px) and (max-width:1080px) {}
 
