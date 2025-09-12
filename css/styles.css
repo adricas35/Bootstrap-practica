@@ -55,6 +55,109 @@ header {
     padding-top: 40px;
 }
 
+.bg-transparente {
+    background: transparent;
+}
+
+header nav .logo {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 28px;
+    transition: .5s;
+}
+
+header nav .logo:hover {
+    color: var(--white-color);
+    transform: scale(1.5);
+}
+
+#navbarNav li a {
+    color: var(--white-color);
+    font-size: var(--fs-text);
+    margin: 0 15px;
+    padding: 10px;
+    border-bottom: 1px solid transparent;
+    transition: .5s;
+}
+
+#navbarNav li a:hover {
+    border-bottom: 1px solid var(--primary-color);
+}
+
+header .bag-button {
+    background: transparent;
+    border: none;
+    color: var(--white-color);
+    font-size: 30px;
+    position: relative;
+
+}
+
+header .bag-button .counter-products {
+    width: 26px;
+    height: 26px;
+    background: var(--primary-color);
+    color: var(--white-color);
+    font-size: var(--fs-text);
+    border-radius: 50%;
+    position: absolute;
+    right: -10px;
+    bottom: 0px;
+
+}
+
+#hero {
+    width: 100%;
+    text-align: center;
+    padding: 90px;
+}
+
+#hero h2 {
+    font-size: var(--fs-title1);
+    color: var(--white-color);
+    font-weight: 700;
+}
+
+#hero p {
+    color: var(--white-color);
+    font-size: var(--fs-title3);
+    padding: 40px 150px;
+}
+
+#hero form {
+    width: 400px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+#hero form input {
+    border-radius: 40px;
+    padding: 15px 65px 15px 20px;
+    font-size: var(--fs-title4);
+    width: 344px;
+    border: 2px solid#fff;
+    background: #ffffff4b;
+    color: var(--white-color);
+    outline: none;
+}
+
+#hero form input::placeholder {
+    color: var(--white-color);
+}
+
+#hero form button {
+    width: 40px;
+    height: 40px;
+    background: var(--primary-color);
+    border: none;
+    border-radius: 50%;
+    color: var(--white-color);
+    position: absolute;
+    right: 10%;
+    bottom: 10px;
+}
+
 /* 6. TABLET estilos responsil table*/
 @media screen and (min-width:768px) and (max-width:1080px) {}
 
