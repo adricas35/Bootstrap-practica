@@ -90,7 +90,6 @@ header .bag-button {
     color: var(--white-color);
     font-size: 30px;
     position: relative;
-
 }
 
 header .bag-button .counter-products {
@@ -103,7 +102,6 @@ header .bag-button .counter-products {
     position: absolute;
     right: -10px;
     bottom: 0px;
-
 }
 
 #hero {
@@ -128,7 +126,6 @@ header .bag-button .counter-products {
     width: 400px;
     position: relative;
     margin: 0 auto;
-
 }
 
 #hero form input {
@@ -157,6 +154,50 @@ header .bag-button .counter-products {
     right: 10%;
     bottom: 10px;
 }
+
+
+
+/* Estilos de la section choosing-us en el main */
+#choosing-us {
+    width: 100%;
+    position: relative;
+    background: var(--white-color);
+    padding: 120px 0;
+}
+
+#choosing-us h2 {
+    font-weight: 700;
+    font-size: var(--fs-title2);
+    color: var(--dark-color);
+    padding-top: 20px;
+}
+
+#choosing-us h3 {
+    font-weight: 700;
+    font-size: var(--fs-title3);
+    color: var(--dark-color);
+}
+
+#choosing-us p {
+    font-size: var(--fs-text);
+    margin-top: 20px;
+    color: var(--dark-color);
+}
+
+#choosing-us a {
+    color: var(--primary-color);
+}
+
+#choosing-us a i {
+    margin-left: 4px;
+    transition: .5s;
+}
+
+#choosing-us a:hover i {
+    margin-left: 15px;
+}
+
+
 
 /* 6. TABLET estilos responsil table*/
 @media screen and (min-width:768px) and (max-width:1080px) {}
