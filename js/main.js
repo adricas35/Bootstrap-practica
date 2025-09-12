@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    
     $('.slider-products').slick({
         dots: false,
         infinite: true,

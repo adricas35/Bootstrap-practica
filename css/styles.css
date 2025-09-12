@@ -321,6 +321,105 @@ header .bag-button .counter-products {
     color: #0d1b39;
 }
 
+#products a{
+    color: var(--primary-color);
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: -100px;
+}
+
+#products a i{
+    color: var(--primary-color);
+    
+}
+
+
+
+/* Estilos de la section experiences en el main  */
+#experiences {
+    width: 100%;
+    position: relative;
+    padding: 140px 0;
+}
+
+#experiences .cont-img {
+    position: relative;
+    left: -20px;
+}
+
+#experiences .cont-img img {
+  filter: drop-shadow(-10px 15px 0px #af7d43);
+}
+
+#experiences .cont-img::before {
+    content: "";
+    width: 400px;
+    height: 400px;
+    background: #f7f7f7;
+    position: absolute;
+    z-index: -1;
+    top: -90px;
+    border-radius: 20px;
+}
+
+#experiences .cont-img::after {
+    content: "";
+    width: 400px;
+    height: 300px;
+    background:  #f7f7f7;
+    position: absolute;
+    z-index: -1;
+    top: 75px;
+    border-radius: 20px;
+    right: 168px ;
+}
+
+#experiences .cont-info {
+    padding: 20px 60px 0 0;
+}
+
+#experiences .cont-info h3 {
+    color: var(--primary-color);
+    text-transform: uppercase ;
+    font-size: var(--fs-title4); 
+}
+
+#experiences .cont-info h2 {
+    font-size: var(--fs-title2);
+    font-weight: 700;
+    color: var(--dark-color);
+    margin-bottom: 40px;
+}
+
+#experiences .cont-info p {
+    font-size: var(--fs-text);
+    margin-top: 20px;
+    color: var(--dark-color);
+}
+
+#experiences a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#experiences a i{
+    margin-left: 4px;
+    transition: .5s;
+}
+
+#experiences a:hover i{
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* 6. TABLET estilos responsil table*/
 @media screen and (min-width:768px) and (max-width:1080px) {}
