@@ -1,24 +1,12 @@
 $(document).ready(function () {
 
-    if (window.innerWidth <= 767) {
-        $('.slider-products').slick({
-            dots: false,
-            infinite: true,
-            arrows: true,
-            speed: 300,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-        });
-    }
-    
-    if (window.innerWidth > 767){
+
         $('.slider-products').slick({
         dots: false,
         infinite: true,
         arrows: true,
         speed: 300,
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
         responsive: [
@@ -48,7 +36,8 @@ $(document).ready(function () {
         ]
         });
 
-        $('.slider-reviews').slick({
+
+     $('.slider-reviews').slick({
             dots: false,
             infinite: true,
             arrows: true,
@@ -82,7 +71,6 @@ $(document).ready(function () {
                 }
             ]
         });
-    }
 
 
 
