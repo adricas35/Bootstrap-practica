@@ -687,8 +687,164 @@ footer .row-footer {
 
 /* 7. SMARTPHONE estilos responsil de cel */
 @media screen and (min-width:320px) and (max-width:767px) {
-     header {
+    header {
         background-size: 100% 100%;
-        height: 100vh;
+        height: 78vh;
+        width: 100%;
+        padding: 0px;
     }
+
+    header .logo {
+        font-size: 20px !important;
+    }
+
+    header .carousel-item h2 {
+        font-size: 30px !important;
+        width: 90%;
+    }
+
+    header #hero {
+        padding: 30px 10px;
+        width: 100vw;
+    }
+
+    header #hero #carouselHeroSlidesOnly {
+        max-width: 420px;
+    }
+
+    header #hero .carousel-item p {
+        padding: 20px 10px;
+    }
+
+    header #hero form {
+        display: none;
+    }
+
+    header .carousel-inner {
+        width: 100%;
+    }
+
+    #choosing-us {
+        padding: 30px 5px;
+    }
+
+    #choosing-us .row {
+        padding: 0px;
+        width: 100%;
+    }
+
+    #choosing-us .row .title-detail {
+        margin-bottom: 50px;
+    }
+
+    #choosing-us .row .title-detail h2 {
+        font-size: 25px;
+    }
+
+    #choosing-us .info-detail {
+        margin-bottom: 50px;
+    }
+
+    #choosing-us .info-detail p {
+        width: 90%;
+    }
+
+    #products h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #myTabContent {
+        width: 100%;
+    }
+
+    #products ul {
+        width: 73%;
+    }
+
+    #experiences {
+        margin-top: 0px;
+        padding: 20px;
+        width: 100%;
+    }
+
+    #experiences .cont-info {
+        padding: 20px 10px;
+    }
+
+    #experiences .cont-img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #experiences .cont-img img {
+        width: 100%;
+    }
+
+    #experiences .cont-img::before {
+        width: 105%;
+        height: 80%;
+        top: -30px;
+    }
+
+    #materias  {
+        width: 100%;
+        padding-bottom: 0px;
+    }
+
+    #materias .items-center h2, #experiences .cont-info h2 {
+        font-size: 30px;
+    }
+
+    #materias .cont-img {
+        display: none;
+    }
+
+    #materias .cont-imgs {
+        text-align: center;
+    }
+
+    #reviews h2 {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .slider-reviews {
+        width: 100%;
+        text-align: center;
+    }
+
+    .card-reviews img {
+        width: 90%;
+    }
+
+    .card-reviews {
+        margin-bottom: 20px;
+    }
+
+    #reviews {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    footer {
+        padding: 20px 30px;
+    }
+
+    footer .p-footer {
+        padding-right: 0px;
+    }
+
+    footer .row-footer div {
+        text-align: center;
+    }
+
+    #reviews .card-reviews .cont-info img {
+        width: 150px;
+    }
+
+    #reviews .card-reviews .cont-info {
+        left: 9%;
+    }
+
 }
