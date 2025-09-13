@@ -321,16 +321,16 @@ header .bag-button .counter-products {
     color: #0d1b39;
 }
 
-#products a{
+#products a {
     color: var(--primary-color);
     font-size: 18px;
     text-decoration: none;
     margin-top: -100px;
 }
 
-#products a i{
+#products a i {
     color: var(--primary-color);
-    
+
 }
 
 
@@ -348,7 +348,7 @@ header .bag-button .counter-products {
 }
 
 #experiences .cont-img img {
-  filter: drop-shadow(-10px 15px 0px #af7d43);
+    filter: drop-shadow(-10px 15px 0px #af7d43);
 }
 
 #experiences .cont-img::before {
@@ -366,12 +366,12 @@ header .bag-button .counter-products {
     content: "";
     width: 400px;
     height: 300px;
-    background:  #f7f7f7;
+    background: #f7f7f7;
     position: absolute;
     z-index: -1;
     top: 75px;
     border-radius: 20px;
-    right: 168px ;
+    right: 168px;
 }
 
 #experiences .cont-info {
@@ -380,8 +380,8 @@ header .bag-button .counter-products {
 
 #experiences .cont-info h3 {
     color: var(--primary-color);
-    text-transform: uppercase ;
-    font-size: var(--fs-title4); 
+    text-transform: uppercase;
+    font-size: var(--fs-title4);
 }
 
 #experiences .cont-info h2 {
@@ -397,17 +397,17 @@ header .bag-button .counter-products {
     color: var(--dark-color);
 }
 
-#experiences a{
+#experiences a {
     color: var(--primary-color);
     text-decoration: none;
 }
 
-#experiences a i{
+#experiences a i {
     margin-left: 4px;
     transition: .5s;
 }
 
-#experiences a:hover i{
+#experiences a:hover i {
     margin-left: 15px;
 }
 
@@ -476,7 +476,8 @@ header .bag-button .counter-products {
     content: "";
     width: 290px;
     height: 300px;
-    background: #f7f7f7;;
+    background: #f7f7f7;
+    ;
     position: absolute;
     z-index: -1;
     top: 150px;
@@ -582,12 +583,12 @@ header .bag-button .counter-products {
 
 
 /* Estilos del footer */
-footer{
+footer {
     background: #f7f7f7;
     padding: 80px 0;
 }
 
-footer .logo{
+footer .logo {
     text-decoration: none;
     font-size: 36px;
     color: var(--dark-color);
@@ -596,26 +597,27 @@ footer .logo{
     display: block;
 }
 
-footer .p-footer{
-padding-right: 80px;
-color: var(--dark-color);
-font-size: var(--fs-text);
+footer .p-footer {
+    padding-right: 80px;
+    color: var(--dark-color);
+    font-size: var(--fs-text);
 }
 
-footer h3{
+footer h3 {
     color: var(--primary-color);
     text-transform: uppercase;
     font-size: 18px;
 }
 
-footer .col-footer{
+footer .col-footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 10px 0;
 }
 
-footer .col-footer a, footer .row-footer a{
+footer .col-footer a,
+footer .row-footer a {
     color: var(--dark-color);
     text-decoration: none;
 }
@@ -624,22 +626,69 @@ footer .col-footer p {
     margin: 0px;
 }
 
-footer .row-footer{
+footer .row-footer {
     margin-top: 90px;
 }
 
 
-
-
-
-
-
-
-
-
 /* 6. TABLET estilos responsil table*/
-@media screen and (min-width:768px) and (max-width:1080px) {}
+@media screen and (min-width:768px) and (max-width:1080px) {
+    header {
+        background-size: 100% 100%;
+        height: 100vh;
+    }
+
+    #choosing-us .container .row .title-detail {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #choosing-us .container .row .info-detail {
+        width: calc(100% / 3);
+    }
+
+    #experiences {
+        margin-top: -140px;
+    }
+
+    #experiences .cont-info {
+        order: 1;
+        width: 100%;
+        padding: 30px;
+    }
+
+    #experiences .cont-img {
+        width: 100%;
+        order: 2;
+        padding: 30px;
+        text-align: center;
+    }
+
+    #materias .items-center {
+        width: 100%;
+        padding: 30px;
+    }
+
+    #materias .list-imgs {
+        width: 100%;
+    }
+
+    #materias .cont-img::before {
+        top: 500px;
+    }
+
+    #materias .cont-imgs {
+        margin-left: 112px;
+        margin-right: -112px;
+    }
+
+}
 
 
 /* 7. SMARTPHONE estilos responsil de cel */
-@media screen and (min-width:320px) and (max-width:767px) {}
+@media screen and (min-width:320px) and (max-width:767px) {
+     header {
+        background-size: 100% 100%;
+        height: 100vh;
+    }
+}
