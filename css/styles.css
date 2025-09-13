@@ -485,6 +485,105 @@ header .bag-button .counter-products {
 }
 
 
+
+/* Estilos de la section reviews en el main */
+#reviews {
+    width: 100%;
+    position: relative;
+    padding: 90px 0;
+    text-align: center;
+}
+
+#reviews h3 {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: var(--fs-title4);
+    margin-bottom: 20px;
+}
+
+#reviews h2 {
+    font-weight: 700;
+    font-size: var(--fs-title2);
+    color: var(--dark-color);
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+
+#reviews .card-reviews {
+    position: relative;
+}
+
+#reviews .card-reviews .cont-info {
+    background: var(--white-color);
+    position: absolute;
+    width: 78%;
+    bottom: 20px;
+    border-radius: 30px;
+    left: 4%;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+#reviews .card-reviews .cont-info img {
+    position: absolute;
+    top: -35px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    border: 10px solid #fff;
+    border-radius: 50%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#reviews .card-reviews .cont-info p {
+    color: var(--fs-title1);
+    font-weight: 700;
+}
+
+#reviews .card-reviews .cont-info h4 {
+    font-size: 12px;
+    color: var(--dark-color);
+    margin-bottom: 20px;
+    font-weight: 300
+}
+
+#reviews .card-reviews .cont-info h5 {
+    font-size: 12px;
+    color: var(--dark-color);
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+#reviews .card-reviews .cont-info .stars i {
+    color: #f6b76f;
+}
+
+#reviews .card-reviews .cont-info .stars i:nth-child {
+    opacity: 0.5;
+}
+
+#reviews .slick-arrow {
+    background: var(--white-color);
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+    z-index: 999;
+    border-radius: 50%;
+    color: #0d1b39;
+    border: 1px solid#dbdada;
+}
+
+#reviews .slick-arrow::before {
+    color: #0d1b39;
+}
+
+
+
+
+
 /* 6. TABLET estilos responsil table*/
 @media screen and (min-width:768px) and (max-width:1080px) {}
 
