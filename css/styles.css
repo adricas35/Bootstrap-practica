@@ -787,12 +787,13 @@ footer .row-footer {
         top: -30px;
     }
 
-    #materias  {
+    #materias {
         width: 100%;
         padding-bottom: 0px;
     }
 
-    #materias .items-center h2, #experiences .cont-info h2 {
+    #materias .items-center h2,
+    #experiences .cont-info h2 {
         font-size: 30px;
     }
 
